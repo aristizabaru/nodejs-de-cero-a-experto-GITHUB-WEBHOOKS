@@ -25,11 +25,14 @@ npm install
 Para ejecutar el proyecto se deben seguir los siguientes pasos:
 
 1. Clonar el archivo `.env.template` a `.env`
-2. Configurar variables de entorno. Si desea usar la integración con el bot de discord debe proveer una URL de integración; para más información diríjase a la documentación de Discord
+2. Configurar variables de entorno. Si desea usar la integración con el bot de discord debe proveer una URL de integración; para más información diríjase a la documentación de Discord.
+
+Para el flujo de autenticación debe generar un token seguro que debe ser configurado en las variables de entorno y en la configuración del webhook en GitHub. Para más información visite la documentación de Github.
 
 ```
 PORT=
 DISCORD_WEBHOOK_URL=
+SECRET_TOKEN=
 ```
 
 3. Correr el proyecto usando alguno de los siguientes scripts según el entorno
